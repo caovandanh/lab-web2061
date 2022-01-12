@@ -13,10 +13,10 @@ const render = (content) => {
 };
 
 router.on({
-    "/": () => {
+    "/home": () => {
         render(HomePage);
     },
-    "/about": () => {
+    "/news": () => {
         render(AboutPage);
     },
 });
