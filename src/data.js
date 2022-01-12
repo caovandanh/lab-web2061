@@ -1,21 +1,39 @@
 const data = [
     {
-        id: 1, title: "Bai viet 1", img: "https://picsum.photos/300/300", desc: "Nội dung bài viết 1",
+        id: 1,
+        title: "Vinh danh 295 sinh viên FPT Plytechnic học kỳ Spring 2018",
+        img: "https://picsum.photos/300/300",
+        desc: "Tối ngày 16/06/2018, Cao đẳng FPT Plytechnic Hà Nội đã tổ chức Lễ tôn vinh Ong vàng Poly",
     },
     {
-        id: 2, title: "Bai viet 2", img: "https://picsum.photos/300/300", desc: "Nội dung bài viết 2",
+        id: 2,
+        title: "Sinh viên khối nghành Kinh tế học Cách chạm vào cảm xúc",
+        img: "https://picsum.photos/300/300",
+        desc: "Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh",
     },
     {
-        id: 3, title: "Bai viet 3", img: "https://picsum.photos/300/300", desc: "Nội dung bài viết 3",
+        id: 3,
+        title: "Sinh viên FPoly trải nghiệm thực tế tại Mường Thanh Luxury",
+        img: "https://picsum.photos/300/300",
+        desc: "Với triết lý đạo tạo Thực học - Thực nghiệm, Cao đẳng FPT Polytechnic Đà Nẵng tổ chức cho sinh viên",
     },
     {
-        id: 4, title: "Bai viet 4", img: "https://picsum.photos/300/300", desc: "Nội dung bài viết 4",
+        id: 4,
+        title: "Vinh danh 295 sinh viên FPT Plytechnic học kỳ Spring 2018",
+        img: "https://picsum.photos/300/300",
+        desc: "Tối ngày 16/06/2018, Cao đẳng FPT Plytechnic Hà Nội đã tổ chức Lễ tôn vinh Ong vàng Poly",
     },
     {
-        id: 5, title: "Bai viet 5", img: "https://picsum.photos/300/300", desc: "Nội dung bài viết 5",
+        id: 5,
+        title: "Sinh viên khối nghành Kinh tế học Cách chạm vào cảm xúc",
+        img: "https://picsum.photos/300/300",
+        desc: "Với sự tham gia của chuyên gia trong lĩnh vực kinh doanh",
     },
     {
-        id: 6, title: "Bai viet 6", img: "https://picsum.photos/300/300", desc: "Nội dung bài viết 6",
+        id: 6,
+        title: "Sinh viên FPoly trải nghiệm thực tế tại Mường Thanh Luxury",
+        img: "https://picsum.photos/300/300",
+        desc: "Với triết lý đạo tạo Thực học - Thực nghiệm, Cao đẳng FPT Polytechnic Đà Nẵng tổ chức cho sinh viên",
     },
 ];
 export default data;
