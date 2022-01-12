@@ -13,7 +13,7 @@ const render = (content) => {
 };
 
 router.on({
-    "/home": () => {
+    "/": () => {
         render(HomePage);
     },
     "/news": () => {
