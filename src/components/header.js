@@ -1,14 +1,14 @@
 import Nav from "./nav";
 
 const Header = {
-    print() {
+    render() {
         return /* html */`
         <header class="max-w-5xl mx-auto">
             <div class="bg-blue-800 py-4">
-                <img src="https://ap.poly.edu.vn/images/logo.png" class="mx-auto" />
+                <a href="/home"><img src="https://ap.poly.edu.vn/images/logo.png" class="mx-auto" /></a>
             </div>
             <div class="bg-orange-500">
-                ${Nav.print()}
+                ${Nav.render()}
             </div>
         </header>`;
     },

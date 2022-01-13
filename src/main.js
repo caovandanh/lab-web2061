@@ -6,18 +6,21 @@ import HomePage from "./pages/home";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
-const render = (content) => {
-    document.getElementById("header").innerHTML = Header.print();
-    document.getElementById("content").innerHTML = content.print();
-    document.getElementById("footer").innerHTML = Footer.print();
+const print = (content) => {
+    document.getElementById("header").innerHTML = Header.render();
+    document.getElementById("content").innerHTML = content;
+    document.getElementById("footer").innerHTML = Footer.render();
 };
 
 router.on({
     "/": () => {
-        render(HomePage);
+        print(HomePage.render());
+    },
+    "/home": () => {
+        print(HomePage.render());
     },
     "/news": () => {
-        render(AboutPage);
+        print(AboutPage.render());
     },
 });
 
