@@ -6,7 +6,7 @@ const Nav = {
                 <div class="menu col-span-2">
                     <ul id="menu" class="flex flex-wrap text-white">
                         <li><a href="/" class="block py-3 px-4 text-white hover:bg-blue-500">Trang chủ</a></li>
-                        <li><a href="/news" class="block py-3 px-4 text-white hover:bg-blue-500">Tin tuwsc</a></li>
+                        <li><a href="/news" class="block py-3 px-4 text-white hover:bg-blue-500">Tin tức</a></li>
                         <li><a href="/signup" class="block py-3 px-4 text-white hover:bg-blue-500">Đăng ký</a></li>
                         <li><a href="/signin" class="block py-3 px-4 text-white hover:bg-blue-500">Đăng nhập</a></li>
                     </ul>
