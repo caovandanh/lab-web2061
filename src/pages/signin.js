@@ -20,10 +20,10 @@ const Signin = {
             </div>
             <div class="flex items-center justify-between">
                 <button class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded" type="button">
-                    Sign In
+                    Đăng nhập
                 </button>
-                <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
-                    Forgot Password?
+                <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="/signup">
+                    Đăng ký tài khoản?
                 </a>
             </div>
         </div>`;

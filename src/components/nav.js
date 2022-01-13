@@ -9,6 +9,7 @@ const Nav = {
                         <li><a href="/news" class="block py-3 px-4 text-white hover:bg-blue-500">Tin tức</a></li>
                         <li><a href="/signup" class="block py-3 px-4 text-white hover:bg-blue-500">Đăng ký</a></li>
                         <li><a href="/signin" class="block py-3 px-4 text-white hover:bg-blue-500">Đăng nhập</a></li>
+                        <li><a href="/admin/dashboard" class="block py-3 px-4 text-white hover:bg-blue-500">Admin</a></li>
                     </ul>
                 </div>
                 <div class="seach">

@@ -2,9 +2,11 @@ import Navigo from "navigo";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import AboutPage from "./pages/about";
+import Dashboard from "./pages/admin/dashboard";
 import HomePage from "./pages/home";
 import NewsDetail from "./pages/newDetail";
 import Signin from "./pages/signin";
+import Signup from "./pages/singup";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
@@ -30,6 +32,12 @@ router.on({
     },
     "/signin": () => {
         print(Signin.render());
+    },
+    "/signup": () => {
+        print(Signup.render());
+    },
+    "/admin/dashboard": () => {
+        print(Dashboard.render());
     },
 });
 
