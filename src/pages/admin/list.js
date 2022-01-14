@@ -33,7 +33,7 @@ const List = {
                                                     </td>
                                                     <td class="pt-5 pb-5 pl-3 text-left max-w-xs">${post.desc}</td>
                                                     <td class="pt-5 pb-5 pl-3 text-left">
-                                                        <a href="${post.id}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                                        <a href="/admin/news/${post.id}/edit" class="text-indigo-600 hover:text-indigo-900">Edit</a>
                                                     </td>
                                                 </tr>`).join("")}
                         </tbody>

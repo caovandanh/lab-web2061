@@ -4,6 +4,7 @@ import Header from "./components/header";
 import AboutPage from "./pages/about";
 import Adminnew from "./pages/admin/adminnew";
 import Dashboard from "./pages/admin/dashboard";
+import Edit from "./pages/admin/edit";
 import List from "./pages/admin/list";
 import HomePage from "./pages/home";
 import NewsDetail from "./pages/newDetail";
@@ -46,6 +47,10 @@ router.on({
     },
     "/admin/news/add": () => {
         print(List.render());
+    },
+    "/admin/news/:id/edit": ({ data }) => {
+        const { id } = data;
+        print(Edit.render(id));
     },
 });
 
